@@ -1,0 +1,93 @@
+/* Reset básico para estilos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.php-admin {
+f-radius: 100px;
+background: linear-gradient(
+        90deg,
+        rgba(203,18,133,1)0%,
+        rgba(80,49,145,1) 70%
+)
+}
+
+section.boton {
+max-width: 80px;
+  margin: 1px;
+  padding: 2rem auto;
+f-radius: 1px;
+border-radius: 10px;
+background: 
+}
+  
+  section.center {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Enlaces */
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #FF0000;
+  color: white;
+}
+
+/* Estilo general del cuerpo */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F8F8FF;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #fff;
+  padding: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
