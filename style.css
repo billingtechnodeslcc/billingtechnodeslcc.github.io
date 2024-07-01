@@ -91,3 +91,10 @@ footer a:hover {
   color: #ddd;
 }
 
+body {
+  background: linear-gradient(
+        90deg,
+        rgba(203,18,133,1)0%,
+        rgba(80,49,145,1) 70%
+);
+}
